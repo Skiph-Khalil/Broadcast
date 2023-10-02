@@ -6,8 +6,9 @@ def print_python_version():
 import socket
 
 # Server configuration
+# Host ipv4
 HOST = '0.0.0.0'  # Listen on all available network interfaces
-PORT = 61265     # Port to listen on
+PORT = 12345     # Port to listen on
 BUFFER_SIZE = 1024
 
 # Create a socket to listen for incoming connections
@@ -47,8 +48,9 @@ while True:
 import socket
 
 # Client configuration
+# Replace "server ip address" with Ipv4
 SERVER_HOST = 'server_ip_address'
-SERVER_PORT = 61265
+SERVER_PORT = 12345
 BUFFER_SIZE = 1024
 
 # Create a socket to connect to the server
