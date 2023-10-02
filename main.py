@@ -1,8 +1,13 @@
+import sys
+
+
+def print_python_version():
+    print(sys.version)
 import socket
 
 # Server configuration
 HOST = '0.0.0.0'  # Listen on all available network interfaces
-PORT = 12345     # Port to listen on
+PORT = 61265     # Port to listen on
 BUFFER_SIZE = 1024
 
 # Create a socket to listen for incoming connections
@@ -43,7 +48,7 @@ import socket
 
 # Client configuration
 SERVER_HOST = 'server_ip_address'
-SERVER_PORT = 12345
+SERVER_PORT = 61265
 BUFFER_SIZE = 1024
 
 # Create a socket to connect to the server
