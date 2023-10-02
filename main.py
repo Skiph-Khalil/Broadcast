@@ -1,9 +1,9 @@
+import socket
 import sys
 
 
 def print_python_version():
     print(sys.version)
-import socket
 
 # Server configuration
 # Host ipv4
